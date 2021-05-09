@@ -78,8 +78,8 @@ cd /root
 touch infons
 echo $nameserver >> infons
 sleep 1
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssl/startdns 
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssl/restartdns 
+wget https://raw.githubusercontent.com/leitura/slowdns/main/ssl/startdns 
+wget https://raw.githubusercontent.com/leitura/slowdns/main/ssl/restartdns 
 chmod +x startdns
 chmod +x restartdns
 sed -i "s;1234;$nameserver;g" /root/startdns > /dev/null 2>&1
