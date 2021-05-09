@@ -2,6 +2,7 @@
 clear
 pkg install ncurses-utils -y
 pkg install ncurses-bin -y
+pkg install wget -y
 apt install jq -y -qq --silent
 apt install pv -y -qq --silent
 fun_bar () {
